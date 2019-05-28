@@ -64,3 +64,6 @@ $ deepstream-yolo-app Tegra <H264 filename> <yolo-plugin config file>
 ```
 
 ## 결과
+<p align="center">
+  <img src="https://github.com/eeknim/nvidia-jetson-trt-yolo-test/tree/master/misc" alt="Example result of TRT-YOLO"/>
+</p>
