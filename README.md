@@ -67,3 +67,11 @@ $ deepstream-yolo-app Tegra <H264 filename> <yolo-plugin config file>
 <p align="center">
   <img src="https://github.com/eeknim/nvidia-jetson-trt-yolo-test/blob/master/misc/yolo_output.png" alt="Example result of TRT-YOLO"/>
 </p>
+
+> 기존 YOLOv3 VS TensorRT 가속 YOLOv3 성능
+
+처리시간 | YOLOv3 | YOLOv3
+:---: | :---: | :---:
+이미지 입력 | 310 ms | **61 ms**
+비디오 입력 | 312 ms(3.2 FPS) | **75 ms(13 FPS)**
+추론 속도가 약 5배 향상되었다. 
